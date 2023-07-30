@@ -12,7 +12,7 @@
 }
 
 .menuList {
-  width: 70vw;
+  width: 80vw;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -24,9 +24,30 @@
 .menuItem {
   border-radius: 15px;
   width: 300px;
-  height: 350px;
+  height: 380px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.menuItem button.pass {
+  border: black;
+  background-color: lightskyblue;
+  width: 6rem;
+  height: 3rem;
+  color: black;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.menuItem button#danger {
+  margin-left: 3rem;
+  border: black;
+  background-color: lightsalmon;
+  width: 6rem;
+  height: 3rem;
+  color: black;
+  cursor: pointer;
+  flex-direction: row;
 }
 .menuItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);

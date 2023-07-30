@@ -11,6 +11,7 @@ const Menu = () => {
           return (
             <MenuItem
               key={key}
+              id={key}
               image={pizza.image}
               name={pizza.name}
               price={pizza.price}
